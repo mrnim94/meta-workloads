@@ -8,3 +8,6 @@ helmCharts:
   repo: https://raw.githubusercontent.com/mrnim94/kubernetes-manifest/master/
   # valuesFile: values_helm.yaml
   namespace: default
+images:
+- name: nginx
+  newTag: 1.23.1
