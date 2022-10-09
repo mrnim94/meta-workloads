@@ -4,10 +4,7 @@ helmCharts:
 - name: nimtechnology
   includeCRDs: false
   releaseName: workload1
-  version: 0.1.1 #look at
+  version: 0.1.2 #look at
   repo: https://raw.githubusercontent.com/mrnim94/kubernetes-manifest/master/
   valuesFile: values_helm.yaml
   namespace: default
-images:
-- name: nginx
-  newTag: 1.23.1
