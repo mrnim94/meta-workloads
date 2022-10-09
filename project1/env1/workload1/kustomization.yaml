@@ -8,3 +8,6 @@ helmCharts:
   repo: https://raw.githubusercontent.com/mrnim94/kubernetes-manifest/master/
   valuesFile: values_helm.yaml
   namespace: default
+images:
+- name: 250887682577.dkr.ecr.us-east-1.amazonaws.com/demo-codebuild
+  newTag: 1.0.1
