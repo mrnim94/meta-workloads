@@ -11,3 +11,5 @@ helmCharts:
 images:
 - name: nginx
   newTag: 1.23.1
+imagePullSecrets
+- name: regcred
